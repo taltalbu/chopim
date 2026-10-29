@@ -1,0 +1,111 @@
+@import url("https://fonts.googleapis.com/css2?family=Heebo:wght@400;450;500;550;600;650;700;750;800;900&display=swap");
+
+:root {
+  font-family: "Heebo", sans-serif;
+  color: #233e34;
+  background: #f8faf8;
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  font-weight: 400;
+  font-size: 14px;
+  letter-spacing: 0;
+  --green: #16745e;
+  --ink: #233e34;
+  --muted: #7b867f;
+  --line: #e4eae5;
+  --surface: #fff;
+  --soft: #eef5ef;
+}
+* {
+  box-sizing: border-box;
+}
+body {
+  margin: 0;
+  min-width: 320px;
+}
+button,
+input,
+select {
+  font: inherit;
+}
+button,
+a,
+input,
+select {
+  -webkit-tap-highlight-color: transparent;
+}
+button {
+  cursor: pointer;
+}
+button:disabled {
+  cursor: default;
+  opacity: 0.5;
+}
+button {
+  color: inherit;
+}
+a {
+  color: inherit;
+}
+button,
+input,
+select {
+  letter-spacing: 0;
+}
+button:focus-visible,
+a:focus-visible,
+summary:focus-visible {
+  outline: 3px solid #d69a49;
+  outline-offset: 3px;
+}
+input:focus,
+select:focus {
+  outline: 2px solid #75b8a2;
+  outline-offset: 1px;
+}
+button svg {
+  flex-shrink: 0;
+}
+input,
+select {
+  min-width: 0;
+}
+h1,
+h2,
+h3,
+p {
+  margin: 0;
+}
+fieldset {
+  border: 0;
+  padding: 0;
+  margin: 0;
+  min-width: 0;
+}
+button {
+  border: 0;
+}
+b,
+strong {
+  font-weight: 650;
+}
+button,
+a,
+input,
+select,
+summary {
+  touch-action: manipulation;
+}
+::selection {
+  background: #c9e8d8;
+}
+button {
+  transition:
+    background 0.15s,
+    box-shadow 0.15s;
+}
+button:hover:not(:disabled) {
+  filter: brightness(0.98);
+}
